@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HotelActivity"
+    android:background="@color/antiquewhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="500px"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/logo"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity=""
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/tentrem" />
+
+            <TextView
+                android:id="@+id/textHotel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Hotel Tentrem Yogyakarta. Hotel Description: Hotel Tentrem Yogyakarta is a 5-star accommodation with a classic concept equipped with luxurious facilities."
+                android:textSize="13sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/melia"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/textHotel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="INNSIDE by Melia Yogyakarta. Hotel Description: INSIDE by Melia Yogyakarta is a hotel in a good
+neighborhood, which is located at Depok.
+24-hours front desk is available to serve you, from
+check-in to check-out, or any assistance you need. "
+                android:textStyle="bold"
+                android:textSize="13sp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/marriot"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/textHotel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Yogyakarta Marriott Hotel. Hotel Description: Yogyakarta Marriott Hotel is directly connected to Pakuwon Mall Jogja, the biggest shopping center in Yogyakarta."
+                android:textStyle="bold"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/artotel"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/textHotel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="ARTOTEL Yogyakarta. Hotel Description: ARTOTEL Yogyakarta offers 4-star accommodation in Yogyakarta, 3.8 km from Tugu Monument and 5.8 km from Malioboro Mall."
+                android:textStyle="bold"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/royal"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/textHotel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Royal Ambarrukmo Yogyakarta. Hotel Description: The imperial legend lives on at Royal Ambarrukmo Yogyakarta. What once served as the Yogyakarta Royal palace and gardens stand today as one of the city’s finest 5-star luxury hotels."
+                android:textStyle="bold"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/eastparc"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/textHotel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Eastparc Hotel Yogyakarta. Hotel Description: This garden-themed 5-star hotel is located in the heart of the city and is a delightful base from which to explore Yogyakarta's colorful culture and arts scene."
+                android:textStyle="bold"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/the_101"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/textHotel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="THE 1O1 Yogyakarta Tugu Hotel. Hotel Description: THE 1O1 Yogyakarta Tugu is the pioneer of a Smart Stylish Experience hotel with Yogyakarta Touch which offers a premium meaning of stay, suitable for both Business and Leisure travelers."
+                android:textStyle="bold"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/ambarukmo"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/textHotel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Grand Ambarrukmo Yogyakarta. Hotel Description: A fusion of tradition in a modern stylish four-star hotel is a new identity that represents the beautiful and magnificent architecture yet still taking care of the nature and embracing the culture. "
+                android:textStyle="bold"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/therich"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/textHotel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="The Rich Jogja Hotel. Hotel Description: Staying at The Rich Jogja Hotel welcomes you to experience such enjoyment during your stay in our 473 Rooms with Classic Art Design that will comfort your sightseeing in the city."
+                android:textStyle="bold"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/lafayette"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/textHotel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Lafayette Boutique Hotel. Hotel Description: Experience a four – star boutique hotel which the building exterior, interior, furniture, decoration and art are classic and elegant ompleted with the luxurious touch of French classic."
+                android:textStyle="bold"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/gaia"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/textHotel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="GAIA Cosmo Hotel. Hotel Description: 4 star Hotel, where the famed essence of Yogyakarta and local culture comes together with modern design, art and architecture."
+                android:textSize="13sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/zuri"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/textHotel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Grand Zuri Malioboro Yogyakarta. Hotel Description: is a 4-star hotel, ideally located in the heart of Yogyakarta’s bustling Malioboro Road and the city’s icon Tugu Monument."
+                android:textStyle="bold"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_submit2"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

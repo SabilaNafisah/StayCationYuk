@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="HName">pertama</string-array>
+    <string-array name="rType">kedua</string-array>
+    <string-array name="noOfRooms">ketiga</string-array>
+</resources>

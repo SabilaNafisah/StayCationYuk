@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DestinasiActivity"
+    android:background="@color/antiquewhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="500px"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/logo"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/tamansari"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/textHotel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Kampung Wisata Taman Sari. Based on cultural and heritage potential and supported by the attractions of batik pranting and batik painting"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/tugu"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/textHotel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Tugu Jogja. Tugu Jogja harbors a philosophical meaning about the spirit of resistance to colonialism and has now become a landmark that is very close to the city of Jogja."
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/keratonjogja"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/textHotel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Keraton Yogyakarta. The Yogyakarta Palace is the official palace building of the Ngayogyakarta Hadiningrat Sultanate which was founded during the reign of Sultan Hamengku Buwono I."
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/vredeburg"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/textHotel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Museum Benteng Vredeburg. The location of Fort Vredeburg Yogyakarta in the zero kilometer area of ​​the center of Yogyakarta City makes it an attraction for tourists."
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/prambanan"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/textHotel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Candi Prambanan. Prambanan Temple is the largest Hindu temple in Indonesia and one of the most beautiful temples in Southeast Asia."
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/kedungpedut"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/textHotel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Air Terjun Kedung Pedut. One of the natural attractions lately loved by many visitors, especially young people. In Javanese, Kedung means pond and Pedut means fog."
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/sungaimudal"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:id="@+id/textHotel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Ekowisata Taman Sungai Mudal. Located in Kulon Progo Regency, which offers the charm of a bathing pool sourced from natural springs."
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/purba"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/textHotel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Gunung Api Purba. An ancient volcano is a term for a volcano that was once active, but is now no longer active or has died."
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/pantaiindrayanti"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/textHotel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Pantai Indrayanti. Indrayanti Beach is a beautiful beach located in Tepus Village, Tepus District, Gunungkidul, Yogyakarta."
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/teraskaca"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/textHotel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Teras Kaca Pantai Nguluran. Photo spot facing directly to the open sea, with a floor made of glass material."
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/tebingbreksi"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/textHotel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Tebing Breksi. The Breccia Cliffs are deposits of volcanic ash from the ancient volcano Mount Semilir."
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="450px"
+                android:layout_height="450px"
+                android:layout_gravity="left"
+                android:src="@drawable/puncakbecici"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:id="@+id/textHotel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Puncak Becici. Becici Peak is a pine forest area that is included in Gunungcilik Hamlet, Muntuk Village, Dlingo District."
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
